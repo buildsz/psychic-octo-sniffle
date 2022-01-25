@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "See Herald Hidden Text",
+  "version": "0.1.0",
+  "description": "Allows you to see the text hidden on premium pages on the NZ Herald. It works by looking for text that seems most likely to be the text that you'd want to unhidden.",
+
+  "content_scripts": [{
+    "js": ["content.js"],   
+    "matches": ["https://www.nzherald.co.nz/*"]
+  }]
+ 
+}
